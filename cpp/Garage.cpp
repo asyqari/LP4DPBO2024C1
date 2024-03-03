@@ -65,6 +65,13 @@ class Garage {
     }
   }
   void showKendaraan() {
+    cout << "Info Garasi\n"
+         << "==================" << endl;
+    cout << "Nama:" << getNama() << endl;
+    cout << "Luas: " << getLuas() << endl;
+    cout << "Kapasitas: " << getKapasitas() << endl;
+    cout << "==================" << endl;
+
     int size = isiKendaraan.size();
     cout << "List Kendaraan yang terparkir\n"
          << "==================\n";
